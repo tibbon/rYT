@@ -1,0 +1,5 @@
+I found that the only Gems for accessing Youtube were 'youtube-g' and 'youtube', both of which didn't do what I wanted (scraping everything, including comments, related videos, etc) and weren't currently maintained. 
+
+So I'm going to try and make a more modern and useful YouTube Ruby Gem since Google often ignores Ruby programmers. 
+
+No promises, I'm not exactly a master at this and it will be built initially to my needs
