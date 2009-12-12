@@ -2,4 +2,19 @@ I found that the only Gems for accessing Youtube were 'youtube-g' and 'youtube',
 
 So I'm going to try and make a more modern and useful YouTube Ruby Gem since Google often ignores Ruby programmers. 
 
-No promises, I'm not exactly a master at this and it will be built initially to my needs
+My first tasks are to make it so that we can extract data from YouTube, since I'm mainly using this for datamining.
+
+###### Basic Example #####
+
+require 'rubygems'
+require 'main.rb'
+
+username = 'tibbon'
+user = Youtube::User.new(username)
+
+# Print various user data. Look to /examples/example.rb for full listing of methods
+
+p user.username         # Username
+p user.first_name       # First Name
+p user.last_name        # Last Name
+p user.age              # Age
