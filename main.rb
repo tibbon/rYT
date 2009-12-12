@@ -47,7 +47,7 @@ module Youtube
     end
 
     def about
-      Hashie::Mash.new(@response).entry["yt:aboutME"]
+      Hashie::Mash.new(@response).entry["yt:aboutMe"]
     end    
     
     def channel_title
