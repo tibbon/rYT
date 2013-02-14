@@ -23,7 +23,7 @@ p user.movies           # Favorite movies, as listed in profile
 p user.music            # Favorite music, as listed in profile
 p user.occupation       # Field of their job
 p user.company          # Company name (multiple return as one text string)
-p user.gender           # Gender. Just m/f 
+p user.gender           # Gender. Just m/f
 p user.hobbies          # Hobbies
 p user.hometown         # Hometown location
 p user.location         # Current location
